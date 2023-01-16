@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walk Through First HTML Page | blog.codingninjas.in</title>
+</head>
+<body>
+        <div id = "Coding-Ninjas-log">
+             <img src = "./img1.png">
+        </div>
+        <p><a href = "https://www.codingninjas.com">blog.codingninjas.in</a></p>
+        <div id = "coding-ninjas-official-blog-container">
+               <h2>Coding Ninjas Official Blog</h2>
+               <img src = "img9.png">
+        </div>
+
+        <div id = "blog-content-container">
+            <h1>A Step-by-Step walk through of your first HTML page</h1>
+            <img src = "img2.png" alt="step-by-step-blog-image">
+            <p>HTML is short for Hyper Text Markup Language. Basically, it's the "code" behind every webpage - even this one. If you're 
+                just beginning to learn HTML, let us tell you that it's a fairly easy task. HTML,
+                without styling, can't do anuthing more thatn setting a layout, drawing a table, or creating frames -- but it is handy as it helps
+                you structure the content correctly, which is important when you sit down to add style to your HTML. 
+            </p>
+            <img src = "img3.png">
+            <p>However simple this might seem, it is a mighty useful tool when it comes to full-fledged web development. Various tools easily
+                eliminate the HTML coding from your work process -- but if you want to be full control of your web-page, you' ll need to hae some commad over HTML.
+                <br><br>
+                Through this article, we sim to give your the essential HTML building blocks that'll help you get up and running. Reading this, you'll be able to understand an HTML source cod eand even modify it for your own good! 
+            </p>
+
+            <div id = "steps-container">
+                <div id = "step-1">
+                    <h1>Step One - TAGS</h1>
+                    <img src = "img4.png" alt = "open-close-tag-image">
+                    <p>
+                        Tags are what you'll see the most when you look at any HTML source code. A tag can ideally be seen as a wrapper to any item on your HTML document. Tags tell what magic is to be done on the content 
+                        enclosed by them.
+
+                       <br><br>
+                          <ol>Let's look at two types of tags:
+                               <li>&lt;tag-example-1&gt; I need a closing tag &lt;tag-example-1 &gt;</li>
+                               <li>&lt;tag-example-2&gt; I don't need a closing tag</li>
+                          </ol>
+                          
+                          <p>
+                             In the first example, the sentence is wrapped by two tags. The first one is called the opening tag and the second one is called the closing tag. Everything in between is affected by the properties of the tag.
+                             Very commonly used examples of such tags are &lt;html&gt;, &lt;html&gt; , &lt;html&gt; , &lt;html&gt; etc.
+                             
+                             <br><br>
+                             The secod example tags about loner tags -- as in , they don't need a closing tag to function. Although it's not required, these 
+                             type of tags are often written as &lt;tag &gt; to make the dubugging of code easier.
+                             Commong examples of such tags are &lt;hr/&gt; -- used for horizonal line, &lt;br/&gt; -- to break the line, etc.
+                          </p>
+                    </p>
+                 </div>
+                 <div id = "step-2">
+                    <h1>Step Two - HTML, HEAD, and BODY: The three pillers of your document</h1>
+                    <img src = "img5.png" alt="head-body-html-tag image">
+                    <p>
+                        <ul>These tags are essential for any HTML document. They parcel out the significant parts of our HTML
+                         
+                             <li>&lt;BODY &gt; &lt;/BODY &gt; is placed below your &lt;HEAD &gt; tag, and everything that you want to be displayed on your screen
+                                comes under this tag. Text, images, links, and pretty much anything you can see
+                                in your browser live inside this tag.
+                             </li>
+                             <li>&lt;HTML &gt; &lt;/HTML &gt; wraps your entire code. Everything else in your HTML document needs to come inside these tags.</li>
+                             <li>&lt;HEAD&gt; &lt;/HEAD &gt; includes things like title, styles , and scripts. Head is usually present at the top (hah!), just inside the &lt;/HTML &gt; tag.</li>
+                            </ul>
+                    </p>
+                 </div>
+                 <div id = "step-3">
+                      <h1>Step three - A few tags that'll make your page pretty</h1>
+                      <p>Now that you know how to set up the skeleton of your document, let's proceed with the things that will go inside your &lt;BODY &gt; tag and do some magic!</p>
+                      <ul>
+                          Some basic text formatting tags:
+                           <li> &lt; b &gt; &lt;b &gt; makes your text look <span>bold</span></li>
+                           <li>&lt; i &gt; &lt;/i &gt; makes you write in cursive</li>
+                           <li> &lt; u &gt; &lt;/u &gt; underline what you just wrote</li>
+                      </ul>
+
+                      <ul><strong>Tags to help you structure your content:</strong>
+                           <li>&lt;br/&gt; breaks the line , making you continue to the next line</li>
+                           <li> &lt;p &gt; stands for paragraph. It divides your content into paragraphs</li>
+                    
+                    </ul>
+                    <p>Note: You need t use these tags as space and enter keys do very little when it comes to formatting content inside an HTML document. </p>
+
+                    <div id = "heading-container">
+                        <h4>HTML provides you with six tags, from &lt; H1 &gt; &lt;/H1 &gt; to &lt;H6 &gt; &lt/H6 &gt; to help you create different sized headers quickly.</h4>
+                        <img src = "img6.png" alt = "list of headings">
+                        <strong>Inserting an Image:</strong>
+                        <br>
+                        <p>All that's good, but what fun without images on the webpage? Don't worry, &lt;IMG/ &gt; to the rescue ! The image tag has a mandatory attribute called "source". Basically, it tells the browser where it should
+                           look for the image. The syntax goes something like:
+                           
+                            &lt; img src = "path_to_your_image" / &gt;
+
+                        </p>
+                    </div>
+                    <div id = "list-container">
+                        <p>HTML has two types of lists -- ordered and unorderd. Each item of your list has to be enclosed in a tag. The syntax for creating a list is fairly simple.
+
+                        </p>
+                        <ul>
+                            Suppose you want to create a list like:
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ul>
+                        <ol>
+                            Suppose you want to create a list like:
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ol>
+                    </div>
+                    <div id = "conclusion-continer">
+                        <h1>Conclusion</h1>
+                        <p>
+                           You now know enough to skim through and understand any part of an HTML code. We request you to go ahead and try skimming through the source code of any website (you'll find some tags you don't know, but that's how you learn!). 
+                           Oh, and welcome to the world of web development. With HTML under your belt, your next stop should be making your page look beautiful using CSS.
+
+
+
+
+                        </p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+</body>
+</html>
