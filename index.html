@@ -4,25 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
     <title>Walk Through First HTML Page | blog.codingninjas.in</title>
 </head>
 <body>
+    
       <div>
         <nav>
-        <div id = "Coding-Ninjas-log">
+        <div id = "Coding-Ninjas-logo">
              <img src = "static/img1.png">
         </div>
 
     </nav>
-    <header>
+    <header id = "blog-content-header">
 
-   
-        <p><a href = "https://www.codingninjas.com">blog.codingninjas.in</a></p>
-        <div id = "coding-ninjas-official-blog-container">
-               <h2>Coding Ninjas Official Blog</h2>
-               <img src = "static/img9.png">
-        </div>
+        
+        <div id = "header-container">
+            <p><a href = "https://www.codingninjas.com">blog.codingninjas.in</a></p>
+            <div id = "coding-ninjas-official-blog-container">
+                <h2>Coding Ninjas Official Blog</h2>
+                <img src = "static/img9.png">
+            </div>
+    </div>
     </header>
+  
+</div>
+    <div id = "content">
+
+
     <main>
 
    
@@ -142,7 +151,68 @@
                  </div>
             </div>
         </div>
+        
     </main>
+    <aside id = "blog-feedback">
+        <section id = "aside-sec-1">
+            <h1>SUBSCRIBE NOW TO STAY UPDAED WITH NEW TECHNOLOGY TRENDS</h1>
+            <form action="">
+                  <label for="name">Name</label><br>
+                  <input type ="text" name = "name"><br>
+                  <label for="email" name = "email">Email *</label><br>
+                  <input type="email" name = "email"><br>
+                  <button id = "subsBtn">SUBSCRIBE</button>
+            </form>
+        </section>
+        <section id = "aside-sec-2">
+           
+            <form action="">
+                  
+                  <input type ="text" name = "search" placeholder="Search...">
+                  <button><img src = "static/magnifying-glass.png" alt ="search"></button>
+                 
+            </form>
+        </section>
+        <section id = "aside-sec-3">
+              <ul><h1>RECENT POSTS</h1>
+                <li><p>Guiding path for a fresher to start thier career in software programming/development</li></p>
+                <li><p>The undesputed truth about emotional support animal rhode island that the experts don't want you to hear</li></p>
+                <li><p>The Best Plan to use for Emotional Support Animal Oregon</li></p>
+                <li><p>How to find Emotional Support Animal Illions Online</li></p>
+                <li><p>Career opportunites after mastering Python</li></p>
+              </ul>
+        </section>
+        
+        <section id = "aside-sec-4">
+            <ul><h1>RECENT COMMENTS</ul></h1>
+              <li><p>A V YOGESH RAO on get ready for the ultimate summer scholarship test!</li></p>
+              <li><p>STRONY INTERNETOWE on Recursion(The good, the bad and the not so ugly)</li></p>
+              <li><p>PHILIP HERB on Recursion(The good, the bad and the not so ugly)</li></p>
+              <li><p>PASCHER VIGRA on Recursion(The good, the bad and the not so ugly)</li></p>
+              <li><p>ANANYA BURMAN on Code your way through competitive programming!</li></p>
+            </ul>
+      </section>
+      <section id = "aside-sec-5">
+        <ul><h1>CATEGORIES</h1>
+          <li><p>Android</li></p>
+          <li><p>General</li></p>
+          <li><p>Interview Experience</li></p>
+          <li><p>Machine Learning</li></p>
+          <li><p>Ruby</li></p>
+          <li><p>Uncategorized</li></p>
+          <li><p>Web Development</li></p>
+        </ul>
+  </section>
+     </aside>
+     <div id = "icons-container">
+        <div class = "social-icons"><img src = "static/facebook.png"></div>
+        <div class = "social-icons"><img src = "static/instagram.png"></div>
+        <div class = "social-icons"><img src = "static/whatsapp.png"></div>
+        <div class = "social-icons"><img src = "static/google-plus.png"></div>
+        <div class = "social-icons"><img src = "static/linkedin.png"></div>
     </div>
+</div>
+    
+
 </body>
 </html>
